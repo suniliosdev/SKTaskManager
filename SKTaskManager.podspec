@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SKTaskManager"
-  s.version          = "0.1.0"
+  s.version          = "0.1"
   s.summary          = "Now its easy to manage asynchronous task whether its is sequential or parallel."
   s.homepage         = "https://github.com/SunilSpaceo/SKTaskManager"
   s.license          = 'MIT'
