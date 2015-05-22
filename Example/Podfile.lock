@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SKTaskManager: 7e1f5e5237a04f4dca82d5da027e11d6a5d11b90
+  SKTaskManager: a5bff14f0224468f1b8a21f9b4b3590af6075fe2
 
 COCOAPODS: 0.37.1
