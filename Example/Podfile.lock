@@ -1,0 +1,14 @@
+PODS:
+  - SKTaskManager (0.1.0)
+
+DEPENDENCIES:
+  - SKTaskManager (from `../`)
+
+EXTERNAL SOURCES:
+  SKTaskManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SKTaskManager: 7e1f5e5237a04f4dca82d5da027e11d6a5d11b90
+
+COCOAPODS: 0.37.1

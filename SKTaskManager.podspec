@@ -10,29 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "SKTaskManager"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SKTaskManager."
-  s.description      = <<-DESC
-                       An optional longer description of SKTaskManager
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SKTaskManager"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "Now its easy to manage asynchronous task whether its is sequential or parallel."
+  s.homepage         = "https://github.com/SunilSpaceo/SKTaskManager"
   s.license          = 'MIT'
   s.author           = { "SunilSpaceo" => "sunil@spaceotechnologies.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SKTaskManager.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/SunilSpaceo/SKTaskManager.git", :tag => 1.0 }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SKTaskManager' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# 	s.public_header_files = 'Pod/Classes/**/*.h'
 end
