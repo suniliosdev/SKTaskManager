@@ -9,17 +9,17 @@
 
 Pod::Spec.new do |s|
   s.name             = "SKTaskManager"
-  s.version          = "1.1"
+  s.version          = “1.2”
   s.summary          = "Now its easy to manage asynchronous task whether its is sequential or parallel."
   s.homepage         = "https://github.com/SunilSpaceo/SKTaskManager"
   s.license          = 'MIT'
   s.author           = { "SunilSpaceo" => "sunil@spaceotechnologies.com" }
-  s.source           = { :git => "https://github.com/SunilSpaceo/SKTaskManager.git", :tag => '1.1' }
+  s.source           = { :git => "https://github.com/SunilSpaceo/SKTaskManager.git", :tag => ‘1.2’ }
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*.{h,m}'
+  s.source_files = 'SKTaskManager/**/*.{h,m}'
 
 # 	s.public_header_files = 'Pod/Classes/**/*.h'
 end
