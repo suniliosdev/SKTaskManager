@@ -1,0 +1,10 @@
+PODS:
+  - SKTaskManager (1.2)
+
+DEPENDENCIES:
+  - SKTaskManager
+
+SPEC CHECKSUMS:
+  SKTaskManager: a874a9e412d0262a79da6938cdb10a4a241702f2
+
+COCOAPODS: 0.37.2
